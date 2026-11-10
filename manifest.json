@@ -1,15 +1,30 @@
+
 {
   "name": "Student Appointment Booking",
   "short_name": "Appointments",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#142b55",
   "icons": [
     {
-      "src": "https://drive.google.com/uc?export=view&id=1_jq66PUI8KfZcpscUp7OLQ8C7uMBHGjT",
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
