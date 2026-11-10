@@ -2,34 +2,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/png" sizes="192x192" href="./app-icon-192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="./app-icon-512.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180.png">
-<link rel="manifest" href="./manifest.json">
-<meta name="theme-color" content="#142b55"
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Student Appointment Booking</title>
+
   <meta name="theme-color" content="#142b55">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Student Appointments">
 
-  <link rel="icon" type="image/png"
-    href="https://drive.google.com/uc?export=view&id=1_jq66PUI8KfZcpscUp7OLQ8C7uMBHGjT">
-
-  <link rel="apple-touch-icon"
-    href="https://drive.google.com/uc?export=view&id=1_jq66PUI8KfZcpscUp7OLQ8C7uMBHGjT">
+  <link rel="icon" type="image/png" sizes="192x192" href="./app-icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./app-icon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180.png">
+  <link rel="manifest" href="./manifest.json">
 
   <script>
-    window.location.replace(
-      "https://script.google.com/a/macros/turgutozal.edu.al/s/AKfycbwVWi-zcwcdL5dFc-oR54L8C_fsYSDcPnzNEqjmKNS0NE4kr8LJFqIBL_oRILcrDU-w/exec"
-    );
+    const isStandalone =
+      window.matchMedia('(display-mode: standalone)').matches ||
+      window.navigator.standalone === true;
+
+    if (isStandalone) {
+      window.location.replace(
+        "https://script.google.com/a/macros/turgutozal.edu.al/s/AKfycbwVWi-zcwcdL5dFc-oR54L8C_fsYSDcPnzNEqjmKNS0NE4kr8LJFqIBL_oRILcrDU-w/exec"
+      );
+    }
   </script>
 </head>
+
 <body>
-  <p>Opening Student Appointment Booking...</p>
+  <h2>Student Appointment Booking</h2>
+  <p>Welcome!</p>
+  <p>Open your appointment booking form below.</p>
+
   <a href="https://script.google.com/a/macros/turgutozal.edu.al/s/AKfycbwVWi-zcwcdL5dFc-oR54L8C_fsYSDcPnzNEqjmKNS0NE4kr8LJFqIBL_oRILcrDU-w/exec">
-    Open appointment form
+    Open Appointment Form
   </a>
 </body>
 </html>
