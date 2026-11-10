@@ -1,0 +1,15 @@
+{
+  "name": "Student Appointment Booking",
+  "short_name": "Appointments",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#142b55",
+  "icons": [
+    {
+      "src": "https://drive.google.com/uc?export=view&id=1_jq66PUI8KfZcpscUp7OLQ8C7uMBHGjT",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
